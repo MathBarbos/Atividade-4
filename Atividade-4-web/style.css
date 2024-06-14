@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/background.gif");
+}
+
+h2,
+p,
+button,
+legend {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 10px;
+}
+
+p {
+  font-size: 1.2vw;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex: 1;
+}
+
+.cardExercise {
+  padding: 15px;
+  height: 20vw;
+  border: 1px white solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  backdrop-filter: blur(30px);
+  width: 20vw;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.buttonEnter {
+  font-weight: bold;
+  color: lightblue;
+  font-size: 1.3vw;
+  background-color: transparent;
+  border: 1px lightblue solid;
+  padding: 10px;
+  width: 18vw;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonEnter:hover {
+  padding: 12px;
+  font-size: 1.35vw;
+  background-color: lightblue;
+  color: white;
+}
+
+
+.titleExercise {
+  color: lightblue;
+  font-size: 1.65vw;
+
+}
+
+fieldset {
+  margin-top: 25%;
+  border-radius: 15px;
+  padding-bottom: 12%;
+  border: lightblue 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(50px);
+}
+
+.legendExercise {
+  color: lightblue;
+  font-size: 2vw;
+}
+
+.excirseCard {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonExercise {
+  width: 27vw;
+  margin: 15px;
+}
+
+.buttonExercise:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+
+label {
+  width: 26vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: lightblue;
+  padding: 1vw;
+  border-radius: 10px;
+  margin: 15px;
+  font-weight: bold;
+  font-size: 1.22vw;
+}
+
+input {
+  font-weight: bold;
+  width: 26vw;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  backdrop-filter: blur(50px);
+  color: whitesmoke;
+}
+
+.operator {
+  border: 0px;
+  padding: 0.5vw;
+  background-color: transparent;
+  width: 8vw;
+  height: 2vw;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 30px;
+  font-size: 1vw;
+  backdrop-filter: blur(100px);
+  cursor: pointer;
+}
+
+.operator:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+#fields {
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(135, 206, 250, 0.5);
+  width: 90%;
+  border-radius: 10px;
+}
